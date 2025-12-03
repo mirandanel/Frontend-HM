@@ -91,7 +91,6 @@ A modern, responsive hotel management web application for managing rooms, guests
 Simply open index.html in any modern web browser.
 
 📁 **Project Structure**
-
 hotel-management-system/
 │
 ├── index.html              # Main HTML file
