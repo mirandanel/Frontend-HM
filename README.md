@@ -86,6 +86,18 @@ A modern, responsive hotel management web application for managing rooms, guests
 - Responsive design
 - Modern UI components
 
+## 🚀 Installation & Setup
+
+### **Option 1: Local Development**
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/hotel-management-system.git
+
+# Navigate to project directory
+cd hotel-management-system
+
+# Open in browser
+open index.html
 
 **Option 2: Direct Access**
 Simply open index.html in any modern web browser.
@@ -115,5 +127,112 @@ hotel-management-system/
 
 
 📸 **Screenshots**
+
+<img width="1340" height="693" alt="image" src="https://github.com/user-attachments/assets/ec491b06-a5db-41a1-9bad-f9ac889c1a7b" />
+
+<img width="1366" height="679" alt="image" src="https://github.com/user-attachments/assets/6fadf59e-0d64-4423-b095-92d466a2c089" />
+
+<img width="1338" height="729" alt="image" src="https://github.com/user-attachments/assets/cdbcf653-65aa-443f-b963-4a526185232e" />
+
+
+📱 **Responsive Design**
+The application is fully responsive and works on:
+
+✅ Desktop computers
+
+✅ Tablets
+
+✅ Mobile phones
+
+**Mobile features:**
+
+Collapsible navigation menu
+
+Optimized tables for small screens
+
+Touch-friendly buttons and forms
+
+Adaptive layouts
+
+🎨 **Customization**
+
+**Theme Colors**
+
+Modify CSS variables in style.css:
+
+:root {
+    --primary-color: #1a365d;
+    --secondary-color: #c9a96e;
+    --accent-color: #2d3748;
+    --light-color: #f8f9fa;
+    --dark-color: #2d3748;
+    --success-color: #38a169;
+    --warning-color: #dd6b20;
+    --danger-color: #e53e3e;
+}
+
+**Adding Room Types**
+
+Edit the room type dropdown in both index.html and app.js to add new room categories.
+**
+🌐 **API Integration****
+
+**Backend Setup**
+Update the API_BASE_URL in app.js:
+
+const API_BASE_URL = 'https://hotelmanangementapi-2.onrender.com';
+
+✅ **Browser Compatibility**
+
+✅ Chrome (recommended)
+
+✅ Firefox
+
+✅ Safari
+
+✅ Edge
+
+✅ Opera
+
+**🔮 Future Enhancements**
+
+User authentication & authorization
+
+Payment processing integration
+
+Advanced reporting & analytics
+
+Email notifications system
+
+Room cleaning schedule management
+
+Inventory management
+
+Multi-language support
+
+Dark mode theme
+
+**📞 Support**
+
+For issues or questions:
+
+Check browser console for errors
+
+Ensure JavaScript is enabled
+
+Verify date formats are valid
+
+Clear browser cache if needed
+
+Contact: your-email@example.com
+
+**📄 License**
+
+© 2023 Grand Luxe Hotel. All rights reserved
+
+
+
+
+
 
 
