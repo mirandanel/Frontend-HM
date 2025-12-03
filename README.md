@@ -99,7 +99,7 @@ cd hotel-management-system
 # Open in browser
 open index.html
 
-# Option 2: Direct Access
+ Option 2: Direct Access
 Simply open index.html in any modern web browser.
 
 📁Project Structure
