@@ -2,9 +2,9 @@
 
 A modern, responsive hotel management web application for managing rooms, guests, and bookings with an elegant user interface.
 
-****Features
+**Features**
 
-📊 Dashboard**
+📊 **Dashboard**
 
 *Real-time statistics overview
 
