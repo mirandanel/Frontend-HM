@@ -67,6 +67,20 @@ A modern, responsive hotel management web application for managing rooms, guests
 - ✅ Date validation and conflict prevention
 - ✅ Booking status tracking (booked, checked-in, checked-out, cancelled)
 
+## 🚀 Installation & Setup
+
+### **Option 1: Local Development**
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/hotel-management-system.git
+
+# Navigate to project directory
+cd hotel-management-system
+
+# Open in browser
+open index.html
+
+
 ## 🛠️ Tech Stack
 
 ### **Frontend**
@@ -86,18 +100,6 @@ A modern, responsive hotel management web application for managing rooms, guests
 - Responsive design
 - Modern UI components
 
-## 🚀 Installation & Setup
-
-### **Option 1: Local Development**
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/hotel-management-system.git
-
-# Navigate to project directory
-cd hotel-management-system
-
-# Open in browser
-open index.html
 
 **Option 2: Direct Access**
 Simply open index.html in any modern web browser.
