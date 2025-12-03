@@ -99,7 +99,31 @@ cd hotel-management-system
 # Open in browser
 open index.html
 
- Option 2: Direct Access
+
+
+Option 2: Direct Access
 Simply open index.html in any modern web browser.
 
-📁Project Structure
+📁 Project Structure
+
+hotel-management-system/
+│
+├── index.html              # Main HTML file
+├── style.css               # All styles and responsive design
+├── app.js                  # Core application logic
+│
+├── assets/                 # Images, icons, etc.
+│   └── screenshots/        # Application screenshots
+│
+├── Features:
+│   ├── 📊 Dashboard with real-time stats
+│   ├── 🏨 Room management
+│   ├── 👥 Guest management
+│   └── 📅 Booking management
+│
+└── Components:
+    ├── Responsive navigation
+    ├── Modal forms
+    ├── Interactive tables
+    ├── Notification system
+    └── Confirmation dialogs
