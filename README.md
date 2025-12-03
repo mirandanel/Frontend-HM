@@ -86,7 +86,7 @@ A modern, responsive hotel management web application for managing rooms, guests
 - Responsive design
 - Modern UI components
 
-## 🚀 Installation & Setup
+# 🚀 Installation & Setup
 
 ### **Option 1: Local Development**
 ```bash
