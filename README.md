@@ -88,15 +88,15 @@ A modern, responsive hotel management web application for managing rooms, guests
 
 # 🚀 Installation & Setup
 
-### **Option 1: Local Development**
+**Option 1: Local Development**
 ```bash
-# Clone the repository
+Clone the repository
 git clone https://github.com/yourusername/hotel-management-system.git
 
-# Navigate to project directory
+Navigate to project directory
 cd hotel-management-system
 
-# Open in browser
+Open in browser
 open index.html
 
 
