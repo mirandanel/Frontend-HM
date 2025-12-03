@@ -99,8 +99,8 @@ hotel-management-system/
     └── Confirmation dialogs
 
 ****Usage Instruction
-
-Adding a Room**
+**
+Adding a Room****
 
 **1**. Navigate to "Rooms" section
 
@@ -110,3 +110,121 @@ Adding a Room**
 
 **4**. Click "Save Room"
 
+**Adding a Guest**
+
+**1.** Navigate to "Guests" section
+
+**2.** Click "Add New Guest"
+
+**3.** Enter guest information
+
+**4**. Click "Save Guest"
+
+**Creating a Booking**
+
+**1.** Navigate to "Bookings" section
+
+**2.** Click "Create New Booking"
+
+**3.** Select guest and available room
+
+**4.** Choose dates (check-out must be after check-in)
+
+**5.** Set booking status
+
+**6.** Click "Save Booking"
+
+**Adding a Guest**
+
+Navigate to "Guests" section
+
+Click "Add New Guest"
+
+Enter guest information
+
+Click "Save Guest"
+
+**Creating a Booking**
+
+Navigate to "Bookings" section
+
+Click "Create New Booking"
+
+Select guest and available room
+
+Choose dates (check-out must be after check-in)
+
+Set booking status
+
+Click "Save Booking"
+
+  Mobile features:
+
+Collapsible navigation menu
+
+Optimized tables for small screens
+
+Touch-friendly buttons and forms
+
+**Customization
+
+Theme Colors**
+
+Modify CSS variables in style.css:
+
+:root {
+    --primary-color: #1a365d;
+    --secondary-color: #c9a96e;
+    --accent-color: #2d3748;
+    /* ... other variables */
+}
+
+**Adding Room Types**
+
+Edit the room type dropdown in both index.html and app.js to add new room categories.
+
+**Browser Compatibility**
+
+Chrome (recommended)
+
+Firefox
+
+Safari
+
+Edge
+
+Opera
+
+**Future Enhancements**
+
+Potential features to add:
+
+Backend API integration
+
+User authentication
+
+Payment processing
+
+Reporting and analytics
+
+Email notifications
+
+Room cleaning schedule
+
+Inventory management
+
+**License**
+
+© 2023 Grand Luxe Hotel. All rights reserved.
+
+**Support**
+
+For issues or questions:
+
+Check browser console for errors
+
+Ensure JavaScript is enabled
+
+Verify date formats are valid
+
+Clear browser cache if needed
