@@ -21,6 +21,15 @@ BASE URL
 
 🏨 **Room Management**
 
+| Action            | Method | Endpoint         | Body                              |
+| ----------------- | ------ | ---------------- | --------------------------------- |
+| Get all rooms     | GET    | `/api/rooms`     | —                                 |
+| Get a single room | GET    | `/api/rooms/:id` | —                                 |
+| Create room       | POST   | `/api/rooms`     | `{ number, type, price, status }` |
+| Update room       | PUT    | `/api/rooms/:id` | `{ number, type, price, status }` |
+| Delete room       | DELETE | `/api/rooms/:id` | —                                 |
+
+
 Add, edit, and delete rooms
 
 Room types: Single, Double, Suite, Deluxe
