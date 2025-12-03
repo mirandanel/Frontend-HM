@@ -1,3 +1,7 @@
+
+
+# Hotel Management System
+
 🏨 Hotel Management System
 
 A modern, responsive hotel management web application for managing rooms, guests, and bookings with an elegant and intuitive user interface.
@@ -12,16 +16,6 @@ A modern, responsive hotel management web application for managing rooms, guests
 ➡ https://hotelmanangementapi-2.onrender.com
 
 
-# Hotel Management System
-
-![Hotel Management Dashboard](https://via.placeholder.com/800x400/1a365d/ffffff?text=Hotel+Management+System+Dashboard)
-*A modern, responsive hotel management web application for managing rooms, guests, and bookings with an elegant user interface.*
-
-## 🌐 Live URLs
-
-### **Frontend URL:** https://frontend-hm-7afd.vercel.app/
-### **Backend URL:** https://hotelmanangementapi-2.onrender.com
-
 ## ✨ Features
 
 ### 📊 **Dashboard**
@@ -30,17 +24,44 @@ A modern, responsive hotel management web application for managing rooms, guests
 - ✅ Interactive tab system for easy navigation
 
 ### 🏨 **Room Management**
+
+| Action            | Method | Endpoint         | Body                              |
+| ----------------- | ------ | ---------------- | --------------------------------- |
+| Get all rooms     | GET    | `/api/rooms`     | —                                 |
+| Get a single room | GET    | `/api/rooms/:id` | —                                 |
+| Create room       | POST   | `/api/rooms`     | `{ number, type, price, status }` |
+| Update room       | PUT    | `/api/rooms/:id` | `{ number, type, price, status }` |
+| Delete room       | DELETE | `/api/rooms/:id` | —                                 |
+
 - ✅ Add, edit, and delete rooms
 - ✅ Room types: Single, Double, Suite, Deluxe
 - ✅ Status tracking (available/occupied)
 - ✅ Price management per night
 
 ### 👥 **Guest Management**
+
+| Action       | Method | Endpoint          | Body                     |
+| ------------ | ------ | ----------------- | ------------------------ |
+| Get guests   | GET    | `/api/guests`     | —                        |
+| Get guest    | GET    | `/api/guests/:id` | —                        |
+| Create guest | POST   | `/api/guests`     | `{ name, email, phone }` |
+| Update guest | PUT    | `/api/guests/:id` | `{ name, email, phone }` |
+| Delete guest | DELETE | `/api/guests/:id` | —                        |
+
 - ✅ Add, edit, and delete guest profiles
 - ✅ Contact information storage (name, email, phone)
 - ✅ Guest history tracking
 
 ### 📅 **Booking Management**
+
+| Action         | Method | Endpoint            | Body                                             |
+| -------------- | ------ | ------------------- | ------------------------------------------------ |
+| Get bookings   | GET    | `/api/bookings`     | —                                                |
+| Get booking    | GET    | `/api/bookings/:id` | —                                                |
+| Create booking | POST   | `/api/bookings`     | `{ guestId, roomId, checkIn, checkOut, status }` |
+| Update booking | PUT    | `/api/bookings/:id` | `{ guestId, roomId, checkIn, checkOut, status }` |
+| Delete booking | DELETE | `/api/bookings/:id` | —                                                |
+
 - ✅ Create, edit, and delete bookings
 - ✅ Integrated guest and room selection
 - ✅ Date validation and conflict prevention
@@ -77,3 +98,8 @@ cd hotel-management-system
 
 # Open in browser
 open index.html
+
+# Option 2: Direct Access
+Simply open index.html in any modern web browser.
+
+📁Project Structure
